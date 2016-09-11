@@ -1,6 +1,6 @@
 {
   "name": "rethinkdb-cleartables",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A helper method to delete all records in specified or all tables in RethinkDB database",
   "keywords": [
     "rethinkdb",
