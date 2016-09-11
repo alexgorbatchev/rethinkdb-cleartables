@@ -1,0 +1,5 @@
+--compilers ts:ts-node/register
+--timeout 10000
+--recursive
+--require mocha-clean
+--reporter spec

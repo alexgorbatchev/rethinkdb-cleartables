@@ -1,0 +1,16 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "lib/",
+    "sourceMap": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "target": "es6",
+    "declaration": true
+  },
+  "files": [
+    "typings/index.d.ts",
+    "src/index.ts"
+  ]
+}

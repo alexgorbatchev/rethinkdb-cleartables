@@ -1,0 +1,10 @@
+{
+  "globalDevDependencies": {
+    "chai": "registry:dt/chai#3.4.0+20160601211834",
+    "mocha": "registry:env/mocha#2.2.5+20160723033700"
+  },
+  "globalDependencies": {
+    "node": "registry:env/node#6.0.0+20160902022231",
+    "rethinkdb": "registry:dt/rethinkdb#1.10.0+20160811111312"
+  }
+}

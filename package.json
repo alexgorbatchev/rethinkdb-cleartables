@@ -1,0 +1,42 @@
+{
+  "name": "rethinkdb-cleartables",
+  "version": "0.0.0",
+  "description": "A helper method to delete all records in specified or all tables in RethinkDB database",
+  "keywords": [
+    "rethinkdb",
+    "table",
+    "tables",
+    "delete",
+    "remove",
+    "destroy",
+    "multiple",
+    "many",
+    "rows",
+    "records"
+  ],
+  "scripts": {
+    "test": "./test.sh",
+    "build": "rm -rf lib && tsc -p .",
+    "prepublish": "npm run build"
+  },
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "license": "MIT",
+  "files": [
+    "lib/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexgorbatchev/rethinkdb-cleartables"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "mocha-clean": "^1.0.0",
+    "rethinkdb": "^2.3.3",
+    "ts-node": "^1.3.0",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.3"
+  }
+}
